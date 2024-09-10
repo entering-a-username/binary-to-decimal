@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    margin-top: 300px;
+    gap: 10px;
+}
+
+input {
+    outline: none;
+    padding: 6px 5px;
+    width: 50%;
+    font-size: 1rem;
+}
+
+span {
+    font-size: 1.7rem;
+}
+
+/* hide arrows from input */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+#errorID {
+    color: rgb(147, 18, 18);
+    font-weight: 400;
+    display: none;
+}
